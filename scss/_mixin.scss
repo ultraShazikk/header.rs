@@ -1,0 +1,12 @@
+@mixin Link {
+    color: var(--color-link);
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
